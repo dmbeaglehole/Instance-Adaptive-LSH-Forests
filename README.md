@@ -8,3 +8,9 @@ This repository is the official implementation of "Learning to Hash Robustly, wi
 
 # Description of Folder
 
+The user will have to clone their own version of Eigen 3.3.9 repository (https://eigen.tuxfamily.org/index.php?title=Main_Page), and download the MNIST dataset in binary format (http://yann.lecun.com/exdb/mnist/). 
+
+The user will also have to adjust the "dir_path" variable in tree_comp.cpp, mnist_loader.cpp.
+
+
+
