@@ -15,7 +15,7 @@ The user will also have to adjust the "dir_path" variable in tree_comp.cpp, tree
 
 # Usage
 
-Set ANN parameters r and c in the tree_main.cpp file. The parameter ρ is simply by 1/c. 
+Set ANN parameters r and c in the tree_main.cpp file. The parameter ρ is simply 1/c. 
 
 # Some "Learned" distributions on MNIST!
 
