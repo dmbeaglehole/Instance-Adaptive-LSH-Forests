@@ -28,19 +28,14 @@ int main(int argc, char *argv[]){
     Eigen::initParallel();
 
     std::string dir_path = "/home/dmb2266/final_mnist/";
-    //std::string test_file = dir_path + "data/t10k-images-idx3-ubyte";
-    std::string test_file = dir_path + "data/train-labels-idx1-ubyte";
+    std::string test_file = dir_path + "data/t10k-images-idx3-ubyte";
     std::string train_file = dir_path + "data/train-images-idx3-ubyte";
 
     std::cout << "Reading Data" << std::endl;
     Dataset test_dataset_obj, train_dataset_obj;
     test_dataset_obj.read_mnist(test_file);
     train_dataset_obj.read_mnist(train_file);
-
-    std::string lfile = dir_path + "/dataset.txt"; 
-    if (!fexists(lfile.c_str())) {
-        write_int_dataset(dir_path + "/dataset.txt", test_dataset_obj.get_data());
-    }
+    
 
     std::cout << "Binarizing Data" << std::endl;
     unsigned char t = 1;
@@ -96,7 +91,6 @@ int main(int argc, char *argv[]){
     }
     */
 
-    // the independent rho you get is 0.0658111
     LSHtree* tree_ptr = compute_tree(r, c, &train_dataset_obj, tree_label);
 
     // write tree list to file
