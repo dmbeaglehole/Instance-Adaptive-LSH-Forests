@@ -13,4 +13,6 @@ The user will have to clone their own version of Eigen 3.3.9 repository (https:/
 The user will also have to adjust the "dir_path" variable in tree_comp.cpp, tree_main.cpp.
 
 
+# Some "Learned" distributions on MNIST!
+
 
