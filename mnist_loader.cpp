@@ -114,7 +114,6 @@ void Dataset::read_mnist(std::string file_path)
         file.read((char*)&number_of_images,sizeof(number_of_images));
         number_of_images= reverseInt(number_of_images);
 
-        /*
         // load number of rows
         file.read((char*)&n_rows,sizeof(n_rows));
         n_rows= reverseInt(n_rows);
@@ -122,11 +121,6 @@ void Dataset::read_mnist(std::string file_path)
         // load number of cols
         file.read((char*)&n_cols,sizeof(n_cols));
         n_cols= reverseInt(n_cols);
-        */
-
-        n_cols = 1;
-        n_rows = 1;
-
 
         num_cols = n_cols;
         num_rows = n_rows;
