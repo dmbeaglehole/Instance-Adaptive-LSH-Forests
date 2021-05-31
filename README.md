@@ -15,4 +15,6 @@ The user will also have to adjust the "dir_path" variable in tree_comp.cpp, tree
 
 # Some "Learned" distributions on MNIST!
 
-![alt text]()
+![alt text](https://github.com/dmbeaglehole/Instance-Adaptive-LSH-Forests/blob/main/pi_c4.png)
+
+![alt text](https://github.com/dmbeaglehole/Instance-Adaptive-LSH-Forests/blob/main/pi_c1.png)
