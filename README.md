@@ -15,4 +15,4 @@ The user will also have to adjust the "dir_path" variable in tree_comp.cpp, tree
 
 # Some "Learned" distributions on MNIST!
 
-
+![alt text]()
