@@ -13,6 +13,10 @@ The user will have to clone their own version of Eigen 3.3.9 repository (https:/
 The user will also have to adjust the "dir_path" variable in tree_comp.cpp, tree_main.cpp.
 
 
+# Usage
+
+Set ANN parameters r and c in the tree_main.cpp file. The parameter ρ is simply by 1/c. 
+
 # Some "Learned" distributions on MNIST!
 
 ![alt text](https://github.com/dmbeaglehole/Instance-Adaptive-LSH-Forests/blob/main/pi_c4.png)
