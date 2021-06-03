@@ -27,7 +27,7 @@ int main(int argc, char *argv[]){
     omp_set_num_threads(20);
     Eigen::initParallel();
 
-    std::string dir_path = "/home/dmb2266/final_mnist/";
+    std::string dir_path = "/final_mnist/";
     std::string test_file = dir_path + "data/t10k-images-idx3-ubyte";
     std::string train_file = dir_path + "data/train-images-idx3-ubyte";
 
