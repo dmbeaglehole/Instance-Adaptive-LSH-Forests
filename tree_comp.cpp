@@ -22,7 +22,7 @@
 #define TIME_HORIZON 20000
 using namespace Eigen;
 
-std::string dir_path = "/home/dmb2266/final_mnist";
+std::string dir_path = "";
 
 /* write and read matrices to binary file */
 template<class Matrix>
